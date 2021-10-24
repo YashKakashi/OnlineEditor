@@ -1,0 +1,15 @@
+/************************************************************************/
+Date Start: 22 Oct 2021
+
+Date End: Present
+
+Version:    0.1v
+
+Features:   1) Application can open normally.
+            2) Application can close normally.
+            3) Application has a big tab with '+' icon that can add new tabs.
+            4) Each tab has a small close icon through which tabs can be removed/deleted/closed.
+            5) Application has four sub-menus.
+            6) Application has a simple input element that will contain text and able to do simple editing.
+
+/************************************************************************/

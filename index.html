@@ -6,7 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="assets/sample-multivalue.png" type="image/png">
         <title>Document</title>
-        <link rel="stylesheet" href="assets/third-parties/bootstrap-4.6.0-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./assets/third-parties/bootstrap-4.6.0-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./assets/third-parties/fontawesome-free-5.15.4-web/css/all.min.css">
+        <link rel="stylesheet" href="./assets/custom/scripts/text-editor/text-editor.css">
     </head>
     <body>
 
@@ -49,36 +51,28 @@
             </div>
         </nav>
 
-        <div class="container-fluid row mx-auto">
-            <div class="card col-sm-3 mx-auto my-2" >
-                <img src="assets/sample-multivalue.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+        <div class="container-fluid mx-auto">
+
+            <!-- Will contains all the apps -->
+            <div class="col-12 row py-3 border mx-auto">
+                <div id="text-editor" class="col-1 py-3 mx-1 text-center border rounded">Text Editor</div>
+                <div id="csv-editor" class="col-1 py-3 mx-1 text-center border rounded">CSV Editor</div>
+                <div class="col-1 py-3 mx-1 text-center border rounded">Example APP 1</div>
+                <div class="col-1 py-3 mx-1 text-center border rounded">Example APP 2</div>
             </div>
-            <div class="card col-sm-3 mx-auto my-2" >
-                <img src="assets/sample-multivalue.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-            <div class="card col-sm-3 mx-auto my-2" >
-                <img src="assets/sample-multivalue.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+            <!-- Will contains selected app space -->
+            <div id="app-work-space" class="col-12 my-1 p-0 pb-5 border rounded">
+                <div class="text-center" style="height: 20em;">
+                    Selected app will open here.
                 </div>
             </div>
         </div>
 
         <div class="text-center h1">Yay! Just Uploaded Site</div>
 
-        <script src="assets/third-parties/Jquery-3.6.0.min.js"></script>
-        <script src="assets/third-parties/bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js"></script>
+        <script src="./assets/third-parties/Jquery-3.6.0.min.js"></script>
+        <script src="./assets/third-parties/bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js"></script>
+        <script src="./assets/custom/scripts/text-editor/text-editor.js"></script>
+        <script src="./assets/custom/scripts/csv-editor/csv-editor.js"></script>
     </body>
 </html>

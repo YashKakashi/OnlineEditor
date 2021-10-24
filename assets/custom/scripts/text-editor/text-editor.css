@@ -1,0 +1,8 @@
+#text-editor-text-field {
+    width: 100% !important;
+    color: #fff !important;
+    background-color: #1b1e21 !important;
+    font-weight: 475 !important;
+    letter-spacing: 0.1em !important;
+    resize: none !important;
+}

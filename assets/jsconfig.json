@@ -1,0 +1,9 @@
+{
+    "exclude": [
+        "third-parties/fontawesome-free-5.15.4-web"
+    ],
+    "include": [
+        "custom",
+        "third-parties/Jquery-3.6.0.min.js"
+    ]
+}
